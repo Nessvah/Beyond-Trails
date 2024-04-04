@@ -1,0 +1,62 @@
+# Ignore node_modules folder in the root
+node_modules/
+
+# Node.js dependencies
+npm-debug.log
+package-lock.json
+
+# Backend dependencies
+backend/node_modules/
+
+# If we transpile ES6+ to JavaScript
+backend/dist/
+
+# Frontend dependencies
+frontend/node_modules/
+
+# Ignore build artifacts and other generated files in the frontend
+# Like running 'npm run build' to create a production build
+frontend/build/
+
+# Ignore log files or other folders/files specific to our project
+logs/
+*.log
+config.js
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+.env.production
+.env.test
+
+# IDE/Editor specific files
+.vscode/
+.idea/
+*.code-workspace
+
+# Compiled output (if there is any)
+build/
+dist/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Editor backup files
+*~
+
+# Dependency directory (if we use "npm link" for local package development)
+.linked
+
+# Miscellaneous
+*.tmp
+*.swp
+
+backend/.env.vault
+.flaskenv*
+!.env.project
+!.env.vault
+node_modules/
+
+

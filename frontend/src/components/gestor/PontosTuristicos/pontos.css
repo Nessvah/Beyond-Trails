@@ -1,0 +1,39 @@
+.table-container {
+  overflow-x: auto;
+  white-space: nowrap;
+  max-width: 100%;
+  margin: 0 auto;
+  }
+
+.data-rows tr {
+  height: 50px;
+}
+  
+.data-rows td,
+.data-rows th {
+  vertical-align: middle;
+}
+
+.approval-status {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.approval-status div {
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 5px;
+  text-align: center;
+  font-size:xx-small;
+}
+
+.analise {
+  background-color: gold;
+  color: #fff;
+}
+
+.botaoServico {
+  margin-right: 5px;
+}

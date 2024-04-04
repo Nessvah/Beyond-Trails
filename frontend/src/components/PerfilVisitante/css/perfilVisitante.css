@@ -1,0 +1,47 @@
+/* cardStyles */
+.cardImgContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardImg {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 8%;
+}
+
+.dy2 {
+  text-align: center;
+}
+
+.cardText {
+  padding-top: 2rem;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.cardBody {
+  padding-top: 2rem;
+  text-align: center;
+  height: 30rem;
+}
+
+.cardBtn {
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-top: 2rem;
+  color: white;
+}
+
+.carta {
+  border-radius: 8%;
+  width: 80%;
+  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.cardTodo {
+  height: 90vh;
+}

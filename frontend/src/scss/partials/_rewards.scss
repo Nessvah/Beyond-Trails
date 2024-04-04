@@ -1,0 +1,58 @@
+// .blob {
+//   top: -3rem;
+//   right: -10rem;
+// }
+
+.hero-section {
+  margin: 8rem auto !important;
+}
+
+.instructions-sec {
+  margin-bottom: 5rem;
+}
+
+.orange-platform {
+  display: block;
+  background-color: #0b2719;
+  min-height: 2rem;
+  width: 100%;
+  border-radius: 16px;
+  position: absolute;
+  bottom: -0.6rem;
+  right: 0;
+  z-index: -1;
+}
+
+@media (min-width: 1200px) {
+  .orange-platform {
+    min-height: 3rem;
+  }
+}
+
+.img__compass {
+  min-width: 10rem;
+  max-width: 10rem;
+}
+
+.rectangle-dots {
+  display: none;
+}
+
+@media (min-width: 650px) {
+  .rectangle-dots {
+    display: block;
+    position: absolute;
+    top: -5rem;
+    right: -5rem;
+  }
+}
+
+.friends {
+  margin: 5rem 0;
+  position: relative;
+  z-index: 5;
+}
+
+.guy__map {
+  min-width: 20rem;
+}

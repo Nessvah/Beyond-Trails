@@ -1,0 +1,42 @@
+.promo-section {
+  padding: 5rem 0;
+}
+@media only screen and (min-width: 576px) {
+  .promo-section {
+    padding: 20rem auto;
+  }
+}
+.promo-section__btn {
+  font-size: clamp(1.6rem, 1vw, 1.8rem);
+  font-weight: 600;
+  border-radius: 1.6rem;
+  padding: 0.6rem 1.6rem;
+}
+.promo-section__btn:hover {
+  color: #0b2719;
+}
+.promo-section__btn .active {
+  background-color: #d83713;
+}
+
+.card-article {
+  max-width: 30rem;
+  border-radius: 12px;
+}
+.card-article h5 {
+  font-size: clamp(1.8rem, 1.8vw, 2.8rem);
+  font-weight: 600;
+}
+.card-article__btn {
+  font-size: clamp(1.6rem, 1vw, 1.8rem);
+  font-weight: 600;
+  border-radius: 1.6rem;
+  padding: 0.6rem 1.6rem;
+}
+.card-article__img {
+  border-radius: 12px 12px 0 0;
+}
+
+.cards__see-more {
+  padding-top: 5rem;
+}/*# sourceMappingURL=digital.css.map */

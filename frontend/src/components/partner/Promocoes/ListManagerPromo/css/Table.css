@@ -1,0 +1,30 @@
+.header-large-font {
+  font-size: 1.7rem;
+  background-color: #ced4d1;
+  min-height: 62px !important;
+  padding-top: 7rem;
+}
+.cell-large-font {
+  font-size: 1.3rem;
+  padding-top: 7rem;
+  padding-bottom: 5rem;
+  min-height: 72px !important;
+}
+
+/* 
+.custom-header {
+  height: 56px;
+  width: 195.5px;
+  min-width: 27%;
+  max-width: 280px;
+  white-space: normal;
+  overflow: visible;
+}
+.MuiDataGrid-cellContent {
+  height: 56px;
+  width: 195.5px;
+  min-width: 27%;
+  max-width: 280px;
+  white-space: normal;
+  overflow: visible;
+} */

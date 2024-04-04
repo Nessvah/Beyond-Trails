@@ -1,0 +1,42 @@
+@import "../../scss/partials/mixins";
+
+.promo-section {
+  padding: 5rem 0;
+
+  // 	≥576px
+  @media only screen and (min-width: 576px) {
+    padding: 20rem auto;
+  }
+
+  &__btn {
+    @include button-txt;
+
+    &:hover {
+      color: #0b2719;
+    }
+
+    .active {
+      background-color: #d83713;
+    }
+  }
+}
+
+.card-article {
+  max-width: 30rem;
+  border-radius: 12px;
+  h5 {
+    @include card-title;
+  }
+
+  &__btn {
+    @include button-txt;
+  }
+
+  &__img {
+    border-radius: 12px 12px 0 0;
+  }
+}
+
+.cards__see-more {
+  padding-top: 5rem;
+}

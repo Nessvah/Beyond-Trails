@@ -1,0 +1,26 @@
+@import "~bootstrap/scss/mixins";
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+
+.footer {
+  h4 {
+    font-size: clamp(1.4rem, 2vw, 1.6rem);
+  }
+
+  p,
+  a {
+    font-size: 1.4rem;
+  }
+
+  .bi {
+    width: 2.4rem;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .footer {
+    &__link {
+      width: 3rem;
+    }
+  }
+}

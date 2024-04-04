@@ -1,0 +1,58 @@
+.goBack {
+    font-size: larger;
+}
+
+.big-card-container {
+    display: flex;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  
+  .big-card-content {
+    display: flex;
+    width: 100%;
+  }
+  
+  .big-card-image {
+    flex: 1;
+    padding: 1rem;
+    text-align: center;
+    max-width: 100%;
+    max-height: 200px;
+  }
+  
+  .big-card-details {
+    flex: 2;
+    padding: 1rem;
+  }
+  
+  .big-card-title {
+    font-size: 24px;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+  }
+  
+  .big-card-description {
+    font-size: 16px;
+    line-height: 1.4;
+  }
+  
+  .label {
+    font-weight: bold;
+    margin-right: 6px;
+  }
+
+  .qr-code-symbol {
+    bottom: 10px;
+    right: 10px;
+    cursor: pointer;
+  }
+  
+  .qr-code-symbol img {
+    width: 30px;
+    height: 30px;
+  }

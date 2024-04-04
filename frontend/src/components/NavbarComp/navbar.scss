@@ -1,0 +1,83 @@
+@import "~bootstrap/scss/mixins";
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+
+.navbar {
+  &__logo {
+    width: 10rem;
+  }
+
+  &-nav {
+    a {
+      font-family: "Lato", sans-serif;
+      text-transform: uppercase;
+      font-weight: 700;
+    }
+
+    a::after {
+      display: none;
+    }
+  }
+
+  .bi {
+    font-size: 2.5rem;
+  }
+
+  .nav-link {
+    color: #0b2719;
+
+    &:link {
+      color: #0b2719;
+    }
+  }
+
+  .dropdown {
+    &-menu {
+      border-radius: 0 2rem 2rem 2rem;
+      padding: 1rem;
+    }
+
+    &-item {
+      color: rgba($color: #0b2719, $alpha: 0.7);
+      font-size: 1.6rem;
+
+      &:hover {
+        background-color: rgba($color: #0b2719, $alpha: 0.08);
+        border-radius: 16px;
+        color: rgba($color: #d83713, $alpha: 0.8);
+      }
+    }
+  }
+}
+
+// 	≥576px
+@include media-breakpoint-up(sm) {
+  .navbar {
+    &__logo {
+      width: 70%;
+    }
+  }
+}
+
+//	≥768px
+// @include media-breakpoint-up(md) { ... }
+
+//≥992px
+@include media-breakpoint-up(lg) {
+  .navbar {
+    &__logo {
+      width: 100%;
+    }
+
+    .bi {
+      max-width: 3rem;
+    }
+  }
+}
+
+/* we can limit the width of our main container */
+
+// .main-container {
+//   max-width: 124rem;
+//   margin: auto;
+// }

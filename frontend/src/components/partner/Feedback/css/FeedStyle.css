@@ -1,0 +1,20 @@
+.customForm {
+  max-width: 85rem;
+  margin: 0 auto;
+  padding: 1.25rem;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 2rem;
+  margin-bottom: 15rem;
+  background-color: #ced4da;
+}
+.input {
+  font-size: 1.7rem;
+  padding-top: 1rem;
+}
+
+.formGroup {
+  margin-bottom: 1.25rem;
+}
+/* .fundo {
+  background-color: #e9ecef;
+} */

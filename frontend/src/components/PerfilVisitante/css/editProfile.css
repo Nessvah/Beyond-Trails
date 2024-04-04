@@ -1,0 +1,16 @@
+/* form */
+.form-container {
+  max-width: 200%;
+  margin: 0 auto;
+}
+
+/* rótulos */
+.form-label {
+  display: flex;
+  margin-left: 3.5em;
+}
+
+/* caixas de input */
+.form-input {
+  width: 80%;
+}

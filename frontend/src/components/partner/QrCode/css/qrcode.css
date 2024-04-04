@@ -1,0 +1,14 @@
+/*modal estilos */
+.header-footer {
+  background-image: linear-gradient(to right, #03e7fa, #007d93, #005068);
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.header {
+  background-image: linear-gradient(to right, #03e7fa, #007d93, #005068);
+  color: white;
+  padding: 10px;
+  text-align: center;
+}

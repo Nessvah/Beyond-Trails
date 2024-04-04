@@ -1,0 +1,16 @@
+.img-fluid {
+  width: 100%;
+  object-fit: cover;
+}
+
+.qr-code-symbol {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.qr-code-symbol img {
+  width: 30px;
+  height: 30px;
+}

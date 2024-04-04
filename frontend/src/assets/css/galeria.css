@@ -1,0 +1,30 @@
+.galeria {
+    text-align: center;
+    padding-bottom: 5%;
+  }
+  
+  .galeria__header {
+    min-height: 24rem;
+  }
+  
+  .gallery-container {
+    padding-top: 5rem;
+    padding-bottom: 10rem;
+    background-color:  #0B2719;
+  }
+  
+  
+  .ver-galeria {
+    color: white;
+    float: right;
+    padding-top: 3%;
+    position: relative;
+    padding-right: 22%;
+    padding-bottom: 3%;
+  }
+  
+  .ver-galeria {
+    float: right;
+    padding-top: 3%;
+  }
+  

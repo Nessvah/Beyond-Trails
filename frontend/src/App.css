@@ -1,0 +1,7 @@
+.App {
+  font-size: clamp(1.6rem, 1vw, 1.8rem);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: "Lato";
+}/*# sourceMappingURL=App.css.map */

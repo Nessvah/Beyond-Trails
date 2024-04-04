@@ -1,0 +1,108 @@
+@import "./mixins";
+
+html {
+  /* 62.5% of 16px browser font size is 10px */
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  margin-top: auto;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  font-family: "Playfair Display";
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+  font-size: inherit;
+}
+
+/*  modern CSS typography technique that allows and ensures the
+    font size of an element stays within a certain range.
+    Clamp (min-value, ideal-value, max-value) */
+
+h1 {
+  font-size: clamp(4rem, 5vw, 5.6rem);
+}
+
+h2 {
+  font-size: clamp(3.2rem, 4vw, 4.8rem);
+}
+
+h3 {
+  font-size: clamp(2.4rem, 3vw, 4rem);
+}
+
+h4 {
+  font-size: clamp(2rem, 2vw, 3.2rem);
+}
+
+.card_title {
+  font-size: clamp(1.8rem, 1.8vw, 2.8rem);
+}
+
+.card_text {
+  font-size: clamp(0.9rem, 0.9vw, 1.9rem);
+}
+
+.botao_cards {
+  font-size: clamp(0.8rem, 0.8vw, 1.8rem);
+}
+
+.pontos {
+  font-size: clamp(0.9rem, 0.9vw, 1.9rem);
+}
+
+.resto {
+  font-size: clamp(0.5rem, 0.5vw, 1.5rem);
+}
+
+.main-btn {
+  @include button-txt;
+}
+
+.row {
+  margin: 0;
+}
+
+.main-section {
+  min-height: calc(100vh - 12rem - 12rem);
+}
+
+.verdeIcon {
+  color: #4c8d41;
+}
+
+.vermelhoIcon {
+  color: #c23838;
+}
